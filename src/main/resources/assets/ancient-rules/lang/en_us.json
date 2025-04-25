@@ -1,12 +1,21 @@
 {
-  "itemtab.ancient-rules.mod_tab": "Ancient Rules",
+  "block.ancient-rules.chromewood_log": "Chromewood Log",
+  "block.ancient-rules.chromewood_wood": "Chromewood Wood",
+  "block.ancient-rules.stripped_chromewood_log": "Stripped Chromewood Log",
+  "block.ancient-rules.stripped_chromewood_wood": "Stripped Chromewood Wood",
 
-  "block.ancient-rules.chrome_log": "Chrome Log",
-  "block.ancient-rules.chrome_wood": "Chrome Wood",
-  "block.ancient-rules.stripped_chrome_log": "Stripped Chrome Log",
-  "block.ancient-rules.stripped_chrome_wood": "Stripped Chrome Log",
+  "block.ancient-rules.chromewood_planks": "Chromewood Planks",
+  "block.ancient-rules.chromewood_leaves": "Chromewood Leaves",
+  "block.ancient-rules.chromewood_sapling": "Chromewood Sapling",
 
-  "block.ancient-rules.chrome_planks": "Chrome Planks",
-  "block.ancient-rules.chrome_leaves": "Chrome Leaves",
-  "block.ancient-rules.chrome_sapling": "Chrome Sapling"
+  "block.ancient-rules.chromewood_slab": "Chromewood Slab",
+  "block.ancient-rules.chromewood_stairs": "Chromewood Stairs",
+  "block.ancient-rules.chromewood_button": "Chromewood Button",
+  "block.ancient-rules.chromewood_pressure_plate": "Chromewood Pressure Plate",
+  "block.ancient-rules.chromewood_fence": "Chromewood Fence",
+  "block.ancient-rules.chromewood_fence_gate": "Chromewood Fence Gate",
+  "block.ancient-rules.chromewood_door": "Chromewood Door",
+  "block.ancient-rules.chromewood_trapdoor": "Chromewood Trapdoor",
+
+  "itemtab.ancient-rules.mod_tab": "Ancient Rules"
 }

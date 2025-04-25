@@ -18,14 +18,19 @@ public class AncientRules implements ModInitializer {
 
 		AncientRulesBlocks.registerModBlocks();
 
-		StrippableBlockRegistry.register(AncientRulesBlocks.CHROME_LOG, AncientRulesBlocks.STRIPPED_CHROME_LOG);
-		StrippableBlockRegistry.register(AncientRulesBlocks.CHROME_WOOD, AncientRulesBlocks.STRIPPED_CHROME_WOOD);
+		StrippableBlockRegistry.register(AncientRulesBlocks.CHROMEWOOD_LOG, AncientRulesBlocks.STRIPPED_CHROMEWOOD_LOG);
+		StrippableBlockRegistry.register(AncientRulesBlocks.CHROMEWOOD_WOOD, AncientRulesBlocks.STRIPPED_CHROMEWOOD_WOOD);
 
-		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROME_LOG, 5, 5);
-		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROME_WOOD, 5, 5);
-		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.STRIPPED_CHROME_LOG, 5, 5);
-		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.STRIPPED_CHROME_WOOD, 5, 5);
-		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROME_PLANKS, 5, 20);
-		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROME_LEAVES, 30, 60);
+		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROMEWOOD_LOG, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROMEWOOD_WOOD, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.STRIPPED_CHROMEWOOD_LOG, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.STRIPPED_CHROMEWOOD_WOOD, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROMEWOOD_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROMEWOOD_LEAVES, 30, 60);
+
+		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROMEWOOD_SLAB, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROMEWOOD_STAIRS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROMEWOOD_FENCE, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROMEWOOD_FENCE_GATE, 5, 20);
 	}
 }

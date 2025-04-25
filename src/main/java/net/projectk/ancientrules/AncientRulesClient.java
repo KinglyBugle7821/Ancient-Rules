@@ -8,7 +8,7 @@ import net.projectk.ancientrules.block.AncientRulesBlocks;
 public class AncientRulesClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlock(AncientRulesBlocks.CHROME_SAPLING, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(AncientRulesBlocks.CHROME_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(AncientRulesBlocks.CHROMEWOOD_SAPLING, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(AncientRulesBlocks.CHROMEWOOD_LEAVES, RenderLayer.getCutout());
     }
 }

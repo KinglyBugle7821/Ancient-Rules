@@ -14,12 +14,24 @@ public class AncientRulesModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerLog(AncientRulesBlocks.CHROME_LOG).log(AncientRulesBlocks.CHROME_LOG).wood(AncientRulesBlocks.CHROME_WOOD);
-        blockStateModelGenerator.registerLog(AncientRulesBlocks.STRIPPED_CHROME_LOG).log(AncientRulesBlocks.STRIPPED_CHROME_LOG).wood(AncientRulesBlocks.STRIPPED_CHROME_WOOD);
+        BlockStateModelGenerator.BlockTexturePool chromePlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(AncientRulesBlocks.CHROMEWOOD_PLANKS);
 
-        blockStateModelGenerator.registerSimpleCubeAll(AncientRulesBlocks.CHROME_PLANKS);
-        blockStateModelGenerator.registerSingleton(AncientRulesBlocks.CHROME_LEAVES, TexturedModel.LEAVES);
-        blockStateModelGenerator.registerTintableCrossBlockState(AncientRulesBlocks.CHROME_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerLog(AncientRulesBlocks.CHROMEWOOD_LOG).log(AncientRulesBlocks.CHROMEWOOD_LOG).wood(AncientRulesBlocks.CHROMEWOOD_WOOD);
+        blockStateModelGenerator.registerLog(AncientRulesBlocks.STRIPPED_CHROMEWOOD_LOG).log(AncientRulesBlocks.STRIPPED_CHROMEWOOD_LOG).wood(AncientRulesBlocks.STRIPPED_CHROMEWOOD_WOOD);
+
+        blockStateModelGenerator.registerSingleton(AncientRulesBlocks.CHROMEWOOD_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerTintableCrossBlockState(AncientRulesBlocks.CHROMEWOOD_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        chromePlanksPool.slab(AncientRulesBlocks.CHROMEWOOD_SLAB);
+        chromePlanksPool.stairs(AncientRulesBlocks.CHROMEWOOD_STAIRS);
+        chromePlanksPool.button(AncientRulesBlocks.CHROMEWOOD_BUTTON);
+        chromePlanksPool.pressurePlate(AncientRulesBlocks.CHROMEWOOD_PRESSURE_PLATE);
+        chromePlanksPool.fence(AncientRulesBlocks.CHROMEWOOD_FENCE);
+        chromePlanksPool.fenceGate(AncientRulesBlocks.CHROMEWOOD_FENCE_GATE);
+
+        blockStateModelGenerator.registerDoor(AncientRulesBlocks.CHROMEWOOD_DOOR);
+        blockStateModelGenerator.registerTrapdoor(AncientRulesBlocks.CHROMEWOOD_TRAPDOOR);
+
     }
 
     @Override

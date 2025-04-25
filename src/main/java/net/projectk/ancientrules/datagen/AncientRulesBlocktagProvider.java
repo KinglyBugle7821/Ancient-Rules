@@ -16,14 +16,23 @@ public class AncientRulesBlocktagProvider extends FabricTagProvider.BlockTagProv
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
-                .add(AncientRulesBlocks.CHROME_LOG)
-                .add(AncientRulesBlocks.CHROME_WOOD)
-                .add(AncientRulesBlocks.STRIPPED_CHROME_LOG)
-                .add(AncientRulesBlocks.STRIPPED_CHROME_WOOD);
+                .add(AncientRulesBlocks.CHROMEWOOD_LOG)
+                .add(AncientRulesBlocks.CHROMEWOOD_WOOD)
+                .add(AncientRulesBlocks.STRIPPED_CHROMEWOOD_LOG)
+                .add(AncientRulesBlocks.STRIPPED_CHROMEWOOD_WOOD);
         getOrCreateTagBuilder(BlockTags.LOGS)
-                .add(AncientRulesBlocks.CHROME_LOG)
-                .add(AncientRulesBlocks.CHROME_WOOD)
-                .add(AncientRulesBlocks.STRIPPED_CHROME_LOG)
-                .add(AncientRulesBlocks.STRIPPED_CHROME_WOOD);
+                .add(AncientRulesBlocks.CHROMEWOOD_LOG)
+                .add(AncientRulesBlocks.CHROMEWOOD_WOOD)
+                .add(AncientRulesBlocks.STRIPPED_CHROMEWOOD_LOG)
+                .add(AncientRulesBlocks.STRIPPED_CHROMEWOOD_WOOD);
+        getOrCreateTagBuilder(BlockTags.FENCES).add(AncientRulesBlocks.CHROMEWOOD_FENCE);
+        getOrCreateTagBuilder(BlockTags.WOODEN_SLABS).add(AncientRulesBlocks.CHROMEWOOD_SLAB);
+        getOrCreateTagBuilder(BlockTags.WOODEN_STAIRS).add(AncientRulesBlocks.CHROMEWOOD_STAIRS);
+        getOrCreateTagBuilder(BlockTags.WOODEN_BUTTONS).add(AncientRulesBlocks.CHROMEWOOD_BUTTON);
+        getOrCreateTagBuilder(BlockTags.WOODEN_PRESSURE_PLATES).add(AncientRulesBlocks.CHROMEWOOD_PRESSURE_PLATE);
+        getOrCreateTagBuilder(BlockTags.WOODEN_FENCES).add(AncientRulesBlocks.CHROMEWOOD_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(AncientRulesBlocks.CHROMEWOOD_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.DOORS).add(AncientRulesBlocks.CHROMEWOOD_DOOR);
+        getOrCreateTagBuilder(BlockTags.TRAPDOORS).add(AncientRulesBlocks.CHROMEWOOD_TRAPDOOR);
     }
 }

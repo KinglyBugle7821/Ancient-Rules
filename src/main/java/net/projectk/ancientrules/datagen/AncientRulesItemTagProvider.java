@@ -16,12 +16,11 @@ public class AncientRulesItemTagProvider extends FabricTagProvider.ItemTagProvid
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
-                .add(AncientRulesBlocks.CHROME_LOG.asItem())
-                .add(AncientRulesBlocks.CHROME_WOOD.asItem())
-                .add(AncientRulesBlocks.STRIPPED_CHROME_LOG.asItem())
-                .add(AncientRulesBlocks.STRIPPED_CHROME_WOOD.asItem());
+                .add(AncientRulesBlocks.CHROMEWOOD_LOG.asItem())
+                .add(AncientRulesBlocks.CHROMEWOOD_WOOD.asItem())
+                .add(AncientRulesBlocks.STRIPPED_CHROMEWOOD_LOG.asItem())
+                .add(AncientRulesBlocks.STRIPPED_CHROMEWOOD_WOOD.asItem());
         getOrCreateTagBuilder(ItemTags.PLANKS)
-                .add(AncientRulesBlocks.CHROME_PLANKS.asItem());
-
+                .add(AncientRulesBlocks.CHROMEWOOD_PLANKS.asItem());
     }
 }
