@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chromewood_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ancient-rules:chromewood_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ancient-rules:chromewood_wood"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chromewood_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ancient-rules:chromewood_wood"
+    ]
+  }
+}

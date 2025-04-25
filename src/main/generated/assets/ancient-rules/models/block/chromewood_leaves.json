@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "ancient-rules:block/chromewood_leaves"
+  }
+}

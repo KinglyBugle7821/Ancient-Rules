@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "ancient-rules:chromewood_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ancient-rules:chromewood_button"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "ancient-rules:block/chromewood_door_bottom",
+    "top": "ancient-rules:block/chromewood_door_top"
+  }
+}

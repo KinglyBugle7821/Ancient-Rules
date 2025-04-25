@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancient-rules:block/chromewood_slab"
+    },
+    "type=double": {
+      "model": "ancient-rules:block/chromewood_planks"
+    },
+    "type=top": {
+      "model": "ancient-rules:block/chromewood_slab_top"
+    }
+  }
+}

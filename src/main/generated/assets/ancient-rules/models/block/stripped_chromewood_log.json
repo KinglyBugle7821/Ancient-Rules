@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "ancient-rules:block/stripped_chromewood_log_top",
+    "side": "ancient-rules:block/stripped_chromewood_log"
+  }
+}
