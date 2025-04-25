@@ -9,10 +9,10 @@ public class AncientRulesDataGenerator implements DataGeneratorEntrypoint {
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
-		pack.addProvider(AncientRBlocktagProvider::new);
-		pack.addProvider(AncientRItemTagProvider::new);
-		pack.addProvider(AncientRLootTableProvider::new);
-		pack.addProvider(AncientRModelProvider::new);
-		pack.addProvider(AncientRRecipeProvider::new);
+		pack.addProvider(AncientRulesBlocktagProvider::new);
+		pack.addProvider(AncientRulesItemTagProvider::new);
+		pack.addProvider(AncientRulesLootTableProvider::new);
+		pack.addProvider(AncientRulesModelProvider::new);
+		pack.addProvider(AncientRulesRecipeProvider::new);
 	}
 }
