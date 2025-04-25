@@ -12,7 +12,7 @@
 		"homepage": "",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "MIT",
+	"license": "CC BY-ND",
 	"icon": "assets/ancient-rules/icon.png",
 	"environment": "*",
 	"entrypoints": {
