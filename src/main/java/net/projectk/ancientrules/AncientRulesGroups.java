@@ -14,7 +14,7 @@ public class AncientRulesGroups {
             Identifier.of(AncientRules.MOD_ID, "ancient_rules_mod"),
             FabricItemGroup.builder()
                     .icon(() -> new ItemStack(AncientRulesBlocks.CHROME_SAPLING))
-                    .displayName(Text.translatable("itemtab.ancient_rules.mod_tab"))
+                    .displayName(Text.translatable("itemtab.ancient-rules.mod_tab"))
                     .entries((displayContext, entries) -> {
                         entries.add(AncientRulesBlocks.CHROME_LOG);
                         entries.add(AncientRulesBlocks.CHROME_WOOD);
