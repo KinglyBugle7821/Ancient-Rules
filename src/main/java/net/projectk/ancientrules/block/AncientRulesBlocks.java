@@ -7,8 +7,10 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 import net.projectk.ancientrules.AncientRules;
+import net.projectk.ancientrules.block.custom.LEDPanelBlock;
 
 public class AncientRulesBlocks {
 
@@ -49,6 +51,9 @@ public class AncientRulesBlocks {
             new DoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.OAK_DOOR)));
     public static final Block CHROMEWOOD_TRAPDOOR = registerBlock("chromewood_trapdoor",
             new TrapdoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.OAK_TRAPDOOR)));
+
+    public static final Block WHITE_LED_PANEL = registerBlock("white_led_panel",
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.WHITE).luminance(state -> 15)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

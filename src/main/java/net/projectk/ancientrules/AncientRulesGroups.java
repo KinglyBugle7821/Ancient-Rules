@@ -34,6 +34,8 @@ public class AncientRulesGroups {
                         entries.add(AncientRulesBlocks.CHROMEWOOD_FENCE_GATE);
                         entries.add(AncientRulesBlocks.CHROMEWOOD_DOOR);
                         entries.add(AncientRulesBlocks.CHROMEWOOD_TRAPDOOR);
+
+                        entries.add(AncientRulesBlocks.WHITE_LED_PANEL);
                     }).build());
 
     public static void registerItemGroup() {

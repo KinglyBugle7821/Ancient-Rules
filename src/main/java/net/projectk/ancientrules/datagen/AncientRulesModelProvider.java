@@ -31,7 +31,6 @@ public class AncientRulesModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(AncientRulesBlocks.CHROMEWOOD_DOOR);
         blockStateModelGenerator.registerTrapdoor(AncientRulesBlocks.CHROMEWOOD_TRAPDOOR);
-
     }
 
     @Override
