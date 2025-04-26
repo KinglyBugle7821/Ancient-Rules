@@ -17,7 +17,22 @@
   "block.ancient-rules.chromewood_door": "Chromewood Door",
   "block.ancient-rules.chromewood_trapdoor": "Chromewood Trapdoor",
 
+  "block.ancient-rules.red_led_panel": "Red LED Panel",
+  "block.ancient-rules.blue_led_panel": "Blue LED Panel",
+  "block.ancient-rules.yellow_led_panel": "Yellow LED Panel",
+  "block.ancient-rules.green_led_panel": "Green LED Panel",
+  "block.ancient-rules.black_led_panel": "Black LED Panel",
   "block.ancient-rules.white_led_panel": "White LED Panel",
+  "block.ancient-rules.orange_led_panel": "Orange LED Panel",
+  "block.ancient-rules.purple_led_panel": "Purple LED Panel",
+  "block.ancient-rules.light_blue_led_panel": "Light Blue LED Panel",
+  "block.ancient-rules.lime_led_panel": "Lime LED Panel",
+  "block.ancient-rules.pink_led_panel": "Pink LED Panel",
+  "block.ancient-rules.gray_led_panel": "Gray LED Panel",
+  "block.ancient-rules.light_gray_led_panel": "Light Gray LED Panel",
+  "block.ancient-rules.cyan_led_panel": "Cyan LED Panel",
+  "block.ancient-rules.magenta_led_panel": "Magenta LED Panel",
+  "block.ancient-rules.brown_led_panel": "Brown LED Panel",
 
   "itemtab.ancient-rules.mod_tab": "Ancient Rules"
 }

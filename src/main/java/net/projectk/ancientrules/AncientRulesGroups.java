@@ -35,7 +35,22 @@ public class AncientRulesGroups {
                         entries.add(AncientRulesBlocks.CHROMEWOOD_DOOR);
                         entries.add(AncientRulesBlocks.CHROMEWOOD_TRAPDOOR);
 
+                        entries.add(AncientRulesBlocks.RED_LED_PANEL);
+                        entries.add(AncientRulesBlocks.BLUE_LED_PANEL);
+                        entries.add(AncientRulesBlocks.YELLOW_LED_PANEL);
+                        entries.add(AncientRulesBlocks.GREEN_LED_PANEL);
+                        entries.add(AncientRulesBlocks.BLACK_LED_PANEL);
                         entries.add(AncientRulesBlocks.WHITE_LED_PANEL);
+                        entries.add(AncientRulesBlocks.ORANGE_LED_PANEL);
+                        entries.add(AncientRulesBlocks.PURPLE_LED_PANEL);
+                        entries.add(AncientRulesBlocks.LIGHT_BLUE_LED_PANEL);
+                        entries.add(AncientRulesBlocks.LIME_LED_PANEL);
+                        entries.add(AncientRulesBlocks.PINK_LED_PANEL);
+                        entries.add(AncientRulesBlocks.GRAY_LED_PANEL);
+                        entries.add(AncientRulesBlocks.LIGHT_GRAY_LED_PANEL);
+                        entries.add(AncientRulesBlocks.CYAN_LED_PANEL);
+                        entries.add(AncientRulesBlocks.MAGENTA_LED_PANEL);
+                        entries.add(AncientRulesBlocks.BROWN_LED_PANEL);
                     }).build());
 
     public static void registerItemGroup() {

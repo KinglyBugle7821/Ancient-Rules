@@ -16,18 +16,6 @@ public class AncientRulesClient implements ClientModInitializer {
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(AncientRulesBlocks.CHROMEWOOD_SAPLING, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(AncientRulesBlocks.CHROMEWOOD_LEAVES, RenderLayer.getCutout());
-
-        BuiltinItemRendererRegistry.INSTANCE.register(AncientRulesBlocks.WHITE_LED_PANEL, (stack, mode, matrices, vertexConsumers, light, overlay) -> {
-            MinecraftClient client = MinecraftClient.getInstance();
-            ItemRenderer itemRenderer = client.getItemRenderer();
-            BakedModel model = itemRenderer.getModel(stack, client.world, client.player, 0);
-
-            int fullBrightness = LightmapTextureManager.MAX_LIGHT_COORDINATE;
-
-            itemRenderer.renderItem(stack, mode, fullBrightness, overlay, matrices, vertexConsumers, client.world,0
-            );
-        });
-
     }
 
 }

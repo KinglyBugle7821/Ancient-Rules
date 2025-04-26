@@ -31,5 +31,22 @@ public class AncientRulesLootTableProvider extends FabricBlockLootTableProvider 
         addDrop(AncientRulesBlocks.CHROMEWOOD_TRAPDOOR);
 
         addDrop(AncientRulesBlocks.CHROMEWOOD_LEAVES, leavesDrops(AncientRulesBlocks.CHROMEWOOD_LEAVES, AncientRulesBlocks.CHROMEWOOD_SAPLING, 0.0625F));
+
+        addDrop(AncientRulesBlocks.RED_LED_PANEL);
+        addDrop(AncientRulesBlocks.BLUE_LED_PANEL);
+        addDrop(AncientRulesBlocks.YELLOW_LED_PANEL);
+        addDrop(AncientRulesBlocks.GREEN_LED_PANEL);
+        addDrop(AncientRulesBlocks.BLACK_LED_PANEL);
+        addDrop(AncientRulesBlocks.WHITE_LED_PANEL);
+        addDrop(AncientRulesBlocks.ORANGE_LED_PANEL);
+        addDrop(AncientRulesBlocks.PURPLE_LED_PANEL);
+        addDrop(AncientRulesBlocks.LIGHT_BLUE_LED_PANEL);
+        addDrop(AncientRulesBlocks.LIME_LED_PANEL);
+        addDrop(AncientRulesBlocks.PINK_LED_PANEL);
+        addDrop(AncientRulesBlocks.GRAY_LED_PANEL);
+        addDrop(AncientRulesBlocks.LIGHT_GRAY_LED_PANEL);
+        addDrop(AncientRulesBlocks.CYAN_LED_PANEL);
+        addDrop(AncientRulesBlocks.MAGENTA_LED_PANEL);
+        addDrop(AncientRulesBlocks.BROWN_LED_PANEL);
     }
 }
