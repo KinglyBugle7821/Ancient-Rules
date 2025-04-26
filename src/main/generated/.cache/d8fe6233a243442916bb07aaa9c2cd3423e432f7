@@ -1,4 +1,4 @@
-// 1.21	2025-04-26T14:44:47.515802	Ancient Rules/Model Definitions
+// 1.21	2025-04-26T15:25:42.841307	Ancient Rules/Model Definitions
 db8807a6cd959c13bdd5cd1d6033aaa999988899 assets\ancient-rules\models\block\chromewood_door_top_left_open.json
 d037cba7a1180d4b73c4d298fa5762ee08270ae0 assets\ancient-rules\models\block\chromewood_trapdoor_top.json
 a9358596997501fa6a0c7236b77b9608d5ed816f assets\ancient-rules\blockstates\chromewood_stairs.json
@@ -22,8 +22,8 @@ d56dbc73b61841fd2be9423065cd49ca932fb328 assets\ancient-rules\models\item\stripp
 dfdd8dd4f091a369a2c3e7019c2ba24315277ff7 assets\ancient-rules\models\item\chromewood_trapdoor.json
 55e99e0c8bcb4f83ad76c6a25ff5d6b81abb4629 assets\ancient-rules\models\block\chromewood_button_pressed.json
 963a5ca44d6a16019cb3bd93b4967d72f891d73a assets\ancient-rules\models\block\stripped_chromewood_wood.json
-aea0b67881ddd788067fc667b658c407940517d9 assets\ancient-rules\models\block\chromewood_log.json
 09a683f5cc08ae32bf26907884cf33510c8b1bac assets\ancient-rules\models\block\stripped_chromewood_log.json
+aea0b67881ddd788067fc667b658c407940517d9 assets\ancient-rules\models\block\chromewood_log.json
 d7c4a0f7d03dff9b5c4af5743e5c3de5dbb4bf98 assets\ancient-rules\models\item\chromewood_fence.json
 d87dd0b6ab88433e1482ac036064843f104cdaec assets\ancient-rules\models\block\chromewood_door_top_right.json
 cd3de02c1955e42d8434be9257653ad03a3575cd assets\ancient-rules\blockstates\chromewood_button.json

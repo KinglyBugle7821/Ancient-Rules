@@ -1,10 +1,10 @@
-// 1.21	2025-04-26T14:44:47.5116213	Ancient Rules/Block Loot Tables
+// 1.21	2025-04-26T15:25:42.8367114	Ancient Rules/Block Loot Tables
 89594308f7e824b1466bec45c6c9d9d0fb98c509 data\ancient-rules\loot_table\blocks\chromewood_pressure_plate.json
 f0484da3fb243de9020ea1a4717574d1d6e9ff77 data\ancient-rules\loot_table\blocks\light_blue_led_panel.json
 b051b6210eb487ec725ff3d056b0b424cd97bd27 data\ancient-rules\loot_table\blocks\chromewood_trapdoor.json
 3a8ade40f06978bd766a4c93acc4363f0804d1ec data\ancient-rules\loot_table\blocks\brown_led_panel.json
-196b4b4e41f563bc9b5ac74b9f344050e32ae63f data\ancient-rules\loot_table\blocks\chromewood_fence.json
 da9345e63aa747e01860171ce81bea367f7c7be2 data\ancient-rules\loot_table\blocks\light_gray_led_panel.json
+196b4b4e41f563bc9b5ac74b9f344050e32ae63f data\ancient-rules\loot_table\blocks\chromewood_fence.json
 5d62ac02ee62c0e2fc9b759d445cffbb7896ad45 data\ancient-rules\loot_table\blocks\stripped_chromewood_wood.json
 c5b3a4b2b2d37768dd38c5b22bcef920c03e1a14 data\ancient-rules\loot_table\blocks\chromewood_door.json
 2d8f9cc0404fc64887177bd6b058ffa1a8e336b4 data\ancient-rules\loot_table\blocks\chromewood_stairs.json

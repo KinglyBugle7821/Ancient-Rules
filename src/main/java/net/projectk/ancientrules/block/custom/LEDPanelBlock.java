@@ -11,6 +11,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
+import net.minecraft.world.WorldView;
 import org.jetbrains.annotations.Nullable;
 
 public class LEDPanelBlock extends FacingBlock {
@@ -38,6 +39,14 @@ public class LEDPanelBlock extends FacingBlock {
             case UP    -> SHAPE_UP;
             case DOWN  -> SHAPE_DOWN;
         };
+    }
+
+    @Override
+    protected boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
+        BlockPos adjacentPos = pos.offset(state.get(FACING).getOpposite());
+        BlockState adjacentState = world.getBlockState(adjacentPos);
+
+        return adjacentState.isSolidBlock(world, adjacentPos);
     }
 
     @Override

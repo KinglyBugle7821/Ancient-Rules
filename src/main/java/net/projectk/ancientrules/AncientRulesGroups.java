@@ -51,6 +51,7 @@ public class AncientRulesGroups {
                         entries.add(AncientRulesBlocks.CYAN_LED_PANEL);
                         entries.add(AncientRulesBlocks.MAGENTA_LED_PANEL);
                         entries.add(AncientRulesBlocks.BROWN_LED_PANEL);
+
                     }).build());
 
     public static void registerItemGroup() {

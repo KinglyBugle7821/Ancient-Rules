@@ -53,37 +53,38 @@ public class AncientRulesBlocks {
             new TrapdoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.OAK_TRAPDOOR)));
 
     public static final Block RED_LED_PANEL = registerBlock("red_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.RED).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.RED).luminance(state -> 9)));
     public static final Block BLUE_LED_PANEL = registerBlock("blue_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.BLUE).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.BLUE).luminance(state -> 7)));
     public static final Block YELLOW_LED_PANEL = registerBlock("yellow_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.YELLOW).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.YELLOW).luminance(state -> 14)));
     public static final Block GREEN_LED_PANEL = registerBlock("green_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.GREEN).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.GREEN).luminance(state -> 11)));
     public static final Block BLACK_LED_PANEL = registerBlock("black_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.BLACK).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.BLACK).luminance(state -> 4)));
     public static final Block WHITE_LED_PANEL = registerBlock("white_led_panel",
             new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.WHITE).luminance(state -> 15)));
     public static final Block ORANGE_LED_PANEL = registerBlock("orange_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.ORANGE).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.ORANGE).luminance(state -> 13)));
     public static final Block PURPLE_LED_PANEL = registerBlock("purple_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.PURPLE).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.PURPLE).luminance(state -> 8)));
     public static final Block LIGHT_BLUE_LED_PANEL = registerBlock("light_blue_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.LIGHT_BLUE).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.LIGHT_BLUE).luminance(state -> 10)));
     public static final Block LIME_LED_PANEL = registerBlock("lime_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.LIME).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.LIME).luminance(state -> 13)));
     public static final Block PINK_LED_PANEL = registerBlock("pink_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.PINK).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.PINK).luminance(state -> 12)));
     public static final Block GRAY_LED_PANEL = registerBlock("gray_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.GRAY).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.GRAY).luminance(state -> 6)));
     public static final Block LIGHT_GRAY_LED_PANEL = registerBlock("light_gray_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.LIGHT_GRAY).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.LIGHT_GRAY).luminance(state -> 9)));
     public static final Block CYAN_LED_PANEL = registerBlock("cyan_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.CYAN).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.CYAN).luminance(state -> 9)));
     public static final Block MAGENTA_LED_PANEL = registerBlock("magenta_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.MAGENTA).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.MAGENTA).luminance(state -> 10)));
     public static final Block BROWN_LED_PANEL = registerBlock("brown_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.BROWN).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.BROWN).luminance(state -> 5)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(AncientRules.MOD_ID, name), block);
@@ -96,10 +97,5 @@ public class AncientRulesBlocks {
 
     public static void registerModBlocks() {
         AncientRules.LOGGER.info("Registering Mod Blocks for " + AncientRules.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-//            entries.add(AncientRulesBlocks.PINK_GARNET_BLOCK);
-//            entries.add(AncientRulesBlocks.RAW_PINK_GARNET_BLOCK);
-        });
     }
 }
