@@ -1,0 +1,20 @@
+{
+  "values": [
+    "ancient-rules:red_led_panel",
+    "ancient-rules:blue_led_panel",
+    "ancient-rules:yellow_led_panel",
+    "ancient-rules:green_led_panel",
+    "ancient-rules:black_led_panel",
+    "ancient-rules:white_led_panel",
+    "ancient-rules:orange_led_panel",
+    "ancient-rules:purple_led_panel",
+    "ancient-rules:light_blue_led_panel",
+    "ancient-rules:lime_led_panel",
+    "ancient-rules:pink_led_panel",
+    "ancient-rules:gray_led_panel",
+    "ancient-rules:light_gray_led_panel",
+    "ancient-rules:cyan_led_panel",
+    "ancient-rules:magenta_led_panel",
+    "ancient-rules:brown_led_panel"
+  ]
+}

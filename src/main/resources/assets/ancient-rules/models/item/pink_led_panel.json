@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "ancient-rules:item/pink_led_panel"
+	}
+}

@@ -2,6 +2,9 @@ package net.projectk.ancientrules.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.block.Block;
+import net.minecraft.item.ItemConvertible;
+import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.registry.RegistryWrapper;
 import net.projectk.ancientrules.block.AncientRulesBlocks;
 

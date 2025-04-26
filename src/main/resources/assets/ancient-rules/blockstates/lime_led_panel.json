@@ -1,0 +1,27 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "ancient-rules:block/lime_led_panel"
+		},
+		"facing=south": {
+			"model": "ancient-rules:block/lime_led_panel",
+			"y": 180
+		},
+		"facing=east": {
+			"model": "ancient-rules:block/lime_led_panel",
+			"y": 90
+		},
+		"facing=west": {
+			"model": "ancient-rules:block/lime_led_panel",
+			"y": 270
+		},
+		"facing=up": {
+			"model": "ancient-rules:block/lime_led_panel",
+			"x": 270
+		},
+		"facing=down": {
+			"model": "ancient-rules:block/lime_led_panel",
+			"x": 90
+		}
+	}
+}
