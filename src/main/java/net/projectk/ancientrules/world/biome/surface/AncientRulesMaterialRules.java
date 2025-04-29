@@ -8,21 +8,35 @@ import net.projectk.ancientrules.world.biome.AncientRulesBiomes;
 
 public class AncientRulesMaterialRules {
     private static final MaterialRules.MaterialRule EVERNIGHT_SAND = makeStateRule(AncientRulesBlocks.EVERNIGHT_SAND);
-    private static final MaterialRules.MaterialRule DIRT = makeStateRule(Blocks.DIRT);
-    private static final MaterialRules.MaterialRule GRASS_BLOCK = makeStateRule(Blocks.GRASS_BLOCK);
+    private static final MaterialRules.MaterialRule EVERNIGHT_SANDSTONE = makeStateRule(AncientRulesBlocks.EVERNIGHT_SANDSTONE);
     public static MaterialRules.MaterialRule makeRules() {
-        MaterialRules.MaterialCondition isAboveWater = MaterialRules.water(-1, 0);
-        MaterialRules.MaterialRule surface = MaterialRules.sequence(
-                MaterialRules.condition(isAboveWater, GRASS_BLOCK), // Grass above water level
-                DIRT // Otherwise dirt
+        MaterialRules.MaterialCondition isInEvernighBiome = MaterialRules.biome(AncientRulesBiomes.EVERNIGHT_BIOME);
+
+        // Layer rules
+        MaterialRules.MaterialRule topLayer = MaterialRules.condition(
+                MaterialRules.STONE_DEPTH_FLOOR,
+                EVERNIGHT_SAND
+        );
+
+        MaterialRules.MaterialRule fillerLayer = MaterialRules.condition(
+                MaterialRules.STONE_DEPTH_FLOOR_WITH_SURFACE_DEPTH,
+                EVERNIGHT_SANDSTONE
+        );
+
+        MaterialRules.MaterialRule deeperFillerLayer = MaterialRules.condition(
+                MaterialRules.STONE_DEPTH_FLOOR_WITH_SURFACE_DEPTH_RANGE_6,
+                EVERNIGHT_SANDSTONE
         );
 
         return MaterialRules.sequence(
                 MaterialRules.condition(
-                        MaterialRules.biome(AncientRulesBiomes.EVERNIGHT_BIOME),
-                        MaterialRules.condition(MaterialRules.STONE_DEPTH_FLOOR, EVERNIGHT_SAND)
-                ),
-                MaterialRules.condition(MaterialRules.STONE_DEPTH_FLOOR, EVERNIGHT_SAND)
+                        isInEvernighBiome,
+                        MaterialRules.sequence(
+                                topLayer,
+                                fillerLayer,
+                                deeperFillerLayer
+                        )
+                )
         );
     }
 

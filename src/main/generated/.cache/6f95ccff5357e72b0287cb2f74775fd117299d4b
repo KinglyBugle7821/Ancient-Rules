@@ -1,4 +1,4 @@
-// 1.21	2025-04-29T20:23:06.360343	Ancient Rules/Recipes
+// 1.21	2025-04-29T21:31:38.3064371	Ancient Rules/Recipes
 48c1fe3d415675724dad56e2a33c96c6b6524d9e data\ancient-rules\advancement\recipes\building_blocks\cyan_led_panel.json
 f0116e08d968d178858e13b120734eaeba7e7013 data\ancient-rules\recipe\brown_led_panel.json
 b7b3e3d4dbc2cd12ae972cff30c052d180be7c7d data\ancient-rules\recipe\yellow_led_panel.json
@@ -14,8 +14,8 @@ beab53c78eda41cf3c00e34688e615fdb58737ac data\ancient-rules\recipe\cyan_led_pane
 fc304f3e69d7c3c9ce4e9c0eaec6bd0c968e8bf6 data\ancient-rules\advancement\recipes\building_blocks\red_led_panel.json
 34b6f728ce5818747d84731b247769a6173ffedb data\ancient-rules\recipe\pink_led_panel.json
 1373dcbb97cddd9c0f559ec8f580b9a314d825d8 data\ancient-rules\recipe\lime_led_panel.json
-b6c25b9e5d51944441e866debd382ed01558a645 data\ancient-rules\advancement\recipes\building_blocks\brown_led_panel.json
 f4e2754f06611693b1215d0d0a29c4c95a5bdbaa data\ancient-rules\advancement\recipes\building_blocks\white_led_panel.json
+b6c25b9e5d51944441e866debd382ed01558a645 data\ancient-rules\advancement\recipes\building_blocks\brown_led_panel.json
 cd619155d672b00b7a7fb7d97f3dc66074eb80e6 data\ancient-rules\advancement\recipes\building_blocks\yellow_led_panel.json
 b05bfaf1ff883bc8d9d5b3424e52048ddced4226 data\ancient-rules\recipe\gray_led_panel.json
 4ae9b28ef495e932260c2696b72bdb6e20b43396 data\ancient-rules\recipe\magenta_led_panel.json
@@ -35,7 +35,7 @@ fa6ce30a661fe40d3abb7c2437129e806c27a239 data\ancient-rules\recipe\chromewood_wo
 7d8d972535eb78067856722adde49e957e0211fa data\ancient-rules\recipe\light_blue_led_panel.json
 0437ec3ada005e6a10d6ee1ef3824d0bebd21464 data\ancient-rules\recipe\chromewood_planks.json
 773d2311a2eb4c8b19adae9c0b88960e95ea2534 data\ancient-rules\advancement\recipes\building_blocks\blue_led_panel.json
-e331274913bebf4fc6114f74de3b1f8c4d166aa5 data\ancient-rules\advancement\recipes\building_blocks\purple_led_panel.json
 cce37faec84a82ac592077474276794a2f860d65 data\ancient-rules\recipe\white_led_panel.json
+e331274913bebf4fc6114f74de3b1f8c4d166aa5 data\ancient-rules\advancement\recipes\building_blocks\purple_led_panel.json
 0ed25afb5f816503bdd4f25c8adb07d0aded198e data\ancient-rules\recipe\chromewood_button.json
 a09984b59e8b4b6d3e9e953c2b87526f1c412d35 data\ancient-rules\advancement\recipes\building_blocks\black_led_panel.json
