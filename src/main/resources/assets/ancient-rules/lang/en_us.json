@@ -34,17 +34,17 @@
   "block.ancient-rules.magenta_led_panel": "Magenta LED Panel",
   "block.ancient-rules.brown_led_panel": "Brown LED Panel",
 
-  "block.ancient-rules.black_sand": "Black Sand",
-  "block.ancient-rules.black_sandstone": "Black Sandstone",
-  "block.ancient-rules.black_sandstone_stairs": "Black Sandstone Stairs",
-  "block.ancient-rules.black_sandstone_slab": "Black Sandstone Slab",
-  "block.ancient-rules.black_sandstone_wall": "Black Sandstone Wall",
-  "block.ancient-rules.black_smooth_sandstone": "Black Smooth Sandstone",
-  "block.ancient-rules.black_smooth_sandstone_stairs": "Black Smooth Sandstone Stairs",
-  "block.ancient-rules.black_smooth_sandstone_slab": "Black Smooth Sandstone Slab",
-  "block.ancient-rules.black_cut_sandstone": "Black Cut Sandstone",
-  "block.ancient-rules.black_cut_sandstone_slab": "Black Cut Sandstone Slab",
-  "block.ancient-rules.black_chiseled_sandstone": "Black Chiseled Sandstone",
+  "block.ancient-rules.evernight_sand": "Evernight Sand",
+  "block.ancient-rules.evernight_sandstone": "Evernight Sandstone",
+  "block.ancient-rules.evernight_sandstone_stairs": "Evernight Sandstone Stairs",
+  "block.ancient-rules.evernight_sandstone_slab": "Evernight Sandstone Slab",
+  "block.ancient-rules.evernight_sandstone_wall": "Evernight Sandstone Wall",
+  "block.ancient-rules.evernight_smooth_sandstone": "Smooth Evernight Sandstone",
+  "block.ancient-rules.evernight_smooth_sandstone_stairs": "Smooth Evernight Sandstone Stairs",
+  "block.ancient-rules.evernight_smooth_sandstone_slab": "Smooth Evernight Sandstone Slab",
+  "block.ancient-rules.evernight_cut_sandstone": "Cut Evernight Sandstone",
+  "block.ancient-rules.evernight_cut_sandstone_slab": "Cut Evernight Sandstone Slab",
+  "block.ancient-rules.evernight_chiseled_sandstone": "Chiseled Evernight Sandstone",
 
   "itemtab.ancient-rules.mod_tab": "Ancient Rules"
 }

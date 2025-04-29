@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+      {"model": "ancient-rules:block/evernight_sand", "weight": 5},
+      {"model": "ancient-rules:block/evernight_sand_activated", "weight": 2},
+      {"model": "ancient-rules:block/evernight_sand_activated_1", "weight": 2},
+      {"model": "ancient-rules:block/evernight_sand_activated_2", "weight": 2},
+      {"model": "ancient-rules:block/evernight_sand_activated_3", "weight": 2}
+    ]
+  }
+}

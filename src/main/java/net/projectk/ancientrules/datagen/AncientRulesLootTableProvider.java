@@ -2,9 +2,6 @@ package net.projectk.ancientrules.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import net.minecraft.block.Block;
-import net.minecraft.item.ItemConvertible;
-import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.registry.RegistryWrapper;
 import net.projectk.ancientrules.block.AncientRulesBlocks;
 
@@ -52,16 +49,16 @@ public class AncientRulesLootTableProvider extends FabricBlockLootTableProvider 
         addDrop(AncientRulesBlocks.MAGENTA_LED_PANEL);
         addDrop(AncientRulesBlocks.BROWN_LED_PANEL);
 
-        addDrop(AncientRulesBlocks.BLACK_SAND);
-        addDrop(AncientRulesBlocks.BLACK_SANDSTONE);
-        addDrop(AncientRulesBlocks.BLACK_SANDSTONE_STAIRS);
-        addDrop(AncientRulesBlocks.BLACK_SANDSTONE_SLAB);
-        addDrop(AncientRulesBlocks.BLACK_SANDSTONE_WALL);
-        addDrop(AncientRulesBlocks.BLACK_SMOOTH_SANDSTONE);
-        addDrop(AncientRulesBlocks.BLACK_SMOOTH_SANDSTONE_STAIRS);
-        addDrop(AncientRulesBlocks.BLACK_SMOOTH_SANDSTONE_SLAB);
-        addDrop(AncientRulesBlocks.BLACK_CUT_SANDSTONE);
-        addDrop(AncientRulesBlocks.BLACK_CUT_SANDSTONE_SLAB);
-        addDrop(AncientRulesBlocks.BLACK_CHISELED_SANDSTONE);
+        addDrop(AncientRulesBlocks.EVERNIGHT_SAND);
+        addDrop(AncientRulesBlocks.EVERNIGHT_SANDSTONE);
+        addDrop(AncientRulesBlocks.EVERNIGHT_SANDSTONE_STAIRS);
+        addDrop(AncientRulesBlocks.EVERNIGHT_SANDSTONE_SLAB);
+        addDrop(AncientRulesBlocks.EVERNIGHT_SANDSTONE_WALL);
+        addDrop(AncientRulesBlocks.EVERNIGHT_SMOOTH_SANDSTONE);
+        addDrop(AncientRulesBlocks.EVERNIGHT_SMOOTH_SANDSTONE_STAIRS);
+        addDrop(AncientRulesBlocks.EVERNIGHT_SMOOTH_SANDSTONE_SLAB);
+        addDrop(AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE);
+        addDrop(AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE_SLAB);
+        addDrop(AncientRulesBlocks.EVERNIGHT_CHISELED_SANDSTONE);
     }
 }

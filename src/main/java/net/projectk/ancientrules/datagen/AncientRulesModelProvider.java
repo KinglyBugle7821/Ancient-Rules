@@ -30,12 +30,10 @@ public class AncientRulesModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(AncientRulesBlocks.CHROMEWOOD_DOOR);
         blockStateModelGenerator.registerTrapdoor(AncientRulesBlocks.CHROMEWOOD_TRAPDOOR);
 
-        blockStateModelGenerator.registerSimpleCubeAll(AncientRulesBlocks.BLACK_SAND);
-
-        blockStateModelGenerator.registerSingleton(AncientRulesBlocks.BLACK_SANDSTONE, TexturedModel.CUBE_BOTTOM_TOP);
-        blockStateModelGenerator.registerSingleton(AncientRulesBlocks.BLACK_SMOOTH_SANDSTONE, TexturedModel.CUBE_BOTTOM_TOP);
-        blockStateModelGenerator.registerSingleton(AncientRulesBlocks.BLACK_CUT_SANDSTONE, TexturedModel.CUBE_BOTTOM_TOP);
-        blockStateModelGenerator.registerSingleton(AncientRulesBlocks.BLACK_CHISELED_SANDSTONE, TexturedModel.CUBE_BOTTOM_TOP);
+        blockStateModelGenerator.registerSimpleCubeAll(AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(AncientRulesBlocks.EVERNIGHT_SMOOTH_SANDSTONE);
+        blockStateModelGenerator.registerSingleton(AncientRulesBlocks.EVERNIGHT_SANDSTONE, TexturedModel.CUBE_BOTTOM_TOP);
+        blockStateModelGenerator.registerSingleton(AncientRulesBlocks.EVERNIGHT_CHISELED_SANDSTONE, TexturedModel.CUBE_BOTTOM_TOP);
     }
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {

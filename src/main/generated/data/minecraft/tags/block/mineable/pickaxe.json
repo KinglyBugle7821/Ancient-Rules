@@ -1,14 +1,14 @@
 {
   "values": [
-    "ancient-rules:black_sandstone",
-    "ancient-rules:black_sandstone_stairs",
-    "ancient-rules:black_sandstone_slab",
-    "ancient-rules:black_sandstone_wall",
-    "ancient-rules:black_smooth_sandstone",
-    "ancient-rules:black_smooth_sandstone_stairs",
-    "ancient-rules:black_smooth_sandstone_slab",
-    "ancient-rules:black_cut_sandstone",
-    "ancient-rules:black_cut_sandstone_slab",
-    "ancient-rules:black_chiseled_sandstone"
+    "ancient-rules:evernight_sandstone",
+    "ancient-rules:evernight_sandstone_stairs",
+    "ancient-rules:evernight_sandstone_slab",
+    "ancient-rules:evernight_sandstone_wall",
+    "ancient-rules:evernight_smooth_sandstone",
+    "ancient-rules:evernight_smooth_sandstone_stairs",
+    "ancient-rules:evernight_smooth_sandstone_slab",
+    "ancient-rules:evernight_cut_sandstone",
+    "ancient-rules:evernight_cut_sandstone_slab",
+    "ancient-rules:evernight_chiseled_sandstone"
   ]
 }

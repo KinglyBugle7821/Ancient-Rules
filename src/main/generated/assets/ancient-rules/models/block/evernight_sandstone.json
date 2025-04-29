@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "ancient-rules:block/evernight_sandstone_bottom",
+    "side": "ancient-rules:block/evernight_sandstone_side",
+    "top": "ancient-rules:block/evernight_sandstone_top"
+  }
+}
