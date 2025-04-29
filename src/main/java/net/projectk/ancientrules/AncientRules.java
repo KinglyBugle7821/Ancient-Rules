@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.projectk.ancientrules.block.AncientRulesBlocks;
+import net.projectk.ancientrules.world.gen.AncientRulesWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,6 +18,8 @@ public class AncientRules implements ModInitializer {
 		AncientRulesGroups.registerItemGroup();
 
 		AncientRulesBlocks.registerModBlocks();
+
+		AncientRulesWorldGeneration.generateAncientRulesWorldGen();
 
 		StrippableBlockRegistry.register(AncientRulesBlocks.CHROMEWOOD_LOG, AncientRulesBlocks.STRIPPED_CHROMEWOOD_LOG);
 		StrippableBlockRegistry.register(AncientRulesBlocks.CHROMEWOOD_WOOD, AncientRulesBlocks.STRIPPED_CHROMEWOOD_WOOD);
@@ -32,5 +35,6 @@ public class AncientRules implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROMEWOOD_STAIRS, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROMEWOOD_FENCE, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(AncientRulesBlocks.CHROMEWOOD_FENCE_GATE, 5, 20);
+
 	}
 }

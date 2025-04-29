@@ -51,5 +51,17 @@ public class AncientRulesLootTableProvider extends FabricBlockLootTableProvider 
         addDrop(AncientRulesBlocks.CYAN_LED_PANEL);
         addDrop(AncientRulesBlocks.MAGENTA_LED_PANEL);
         addDrop(AncientRulesBlocks.BROWN_LED_PANEL);
+
+        addDrop(AncientRulesBlocks.BLACK_SAND);
+        addDrop(AncientRulesBlocks.BLACK_SANDSTONE);
+        addDrop(AncientRulesBlocks.BLACK_SANDSTONE_STAIRS);
+        addDrop(AncientRulesBlocks.BLACK_SANDSTONE_SLAB);
+        addDrop(AncientRulesBlocks.BLACK_SANDSTONE_WALL);
+        addDrop(AncientRulesBlocks.BLACK_SMOOTH_SANDSTONE);
+        addDrop(AncientRulesBlocks.BLACK_SMOOTH_SANDSTONE_STAIRS);
+        addDrop(AncientRulesBlocks.BLACK_SMOOTH_SANDSTONE_SLAB);
+        addDrop(AncientRulesBlocks.BLACK_CUT_SANDSTONE);
+        addDrop(AncientRulesBlocks.BLACK_CUT_SANDSTONE_SLAB);
+        addDrop(AncientRulesBlocks.BLACK_CHISELED_SANDSTONE);
     }
 }

@@ -2,6 +2,7 @@ package net.projectk.ancientrules.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import net.projectk.ancientrules.block.AncientRulesBlocks;
@@ -53,5 +54,18 @@ public class AncientRulesBlocktagProvider extends FabricTagProvider.BlockTagProv
                 .add(AncientRulesBlocks.CYAN_LED_PANEL)
                 .add(AncientRulesBlocks.MAGENTA_LED_PANEL)
                 .add(AncientRulesBlocks.BROWN_LED_PANEL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(AncientRulesBlocks.BLACK_SANDSTONE_WALL);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(AncientRulesBlocks.BLACK_SANDSTONE)
+                .add(AncientRulesBlocks.BLACK_SANDSTONE_STAIRS)
+                .add(AncientRulesBlocks.BLACK_SANDSTONE_SLAB)
+                .add(AncientRulesBlocks.BLACK_SANDSTONE_WALL)
+                .add(AncientRulesBlocks.BLACK_SMOOTH_SANDSTONE)
+                .add(AncientRulesBlocks.BLACK_SMOOTH_SANDSTONE_STAIRS)
+                .add(AncientRulesBlocks.BLACK_SMOOTH_SANDSTONE_SLAB)
+                .add(AncientRulesBlocks.BLACK_CUT_SANDSTONE)
+                .add(AncientRulesBlocks.BLACK_CUT_SANDSTONE_SLAB)
+                .add(AncientRulesBlocks.BLACK_CHISELED_SANDSTONE);
     }
 }

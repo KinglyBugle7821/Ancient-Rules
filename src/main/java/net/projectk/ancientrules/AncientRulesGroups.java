@@ -52,6 +52,17 @@ public class AncientRulesGroups {
                         entries.add(AncientRulesBlocks.MAGENTA_LED_PANEL);
                         entries.add(AncientRulesBlocks.BROWN_LED_PANEL);
 
+                        entries.add(AncientRulesBlocks.BLACK_SAND);
+                        entries.add(AncientRulesBlocks.BLACK_SANDSTONE);
+                        entries.add(AncientRulesBlocks.BLACK_SANDSTONE_STAIRS);
+                        entries.add(AncientRulesBlocks.BLACK_SANDSTONE_SLAB);
+                        entries.add(AncientRulesBlocks.BLACK_SANDSTONE_WALL);
+                        entries.add(AncientRulesBlocks.BLACK_SMOOTH_SANDSTONE);
+                        entries.add(AncientRulesBlocks.BLACK_SMOOTH_SANDSTONE_STAIRS);
+                        entries.add(AncientRulesBlocks.BLACK_SMOOTH_SANDSTONE_SLAB);
+                        entries.add(AncientRulesBlocks.BLACK_CUT_SANDSTONE);
+                        entries.add(AncientRulesBlocks.BLACK_CUT_SANDSTONE_SLAB);
+                        entries.add(AncientRulesBlocks.BLACK_CHISELED_SANDSTONE);
                     }).build());
 
     public static void registerItemGroup() {

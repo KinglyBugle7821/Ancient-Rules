@@ -1,7 +1,9 @@
-// 1.21	2025-04-26T15:25:42.8387693	Ancient Rules/Tags for minecraft:block
+// 1.21	2025-04-29T14:11:19.3837414	Ancient Rules/Tags for minecraft:block
 2c9b118266961677f0465aae4168b6adf8344ed1 data\minecraft\tags\block\wooden_buttons.json
 99129e5a64fd11cfbb315027d101113926f94998 data\minecraft\tags\block\fence_gates.json
 4a25c73966d5e6b37da772a65f9d0482a81b44d7 data\minecraft\tags\block\trapdoors.json
+20625caa136c949d05c5bb61e4a5b1045ee9b251 data\minecraft\tags\block\mineable\pickaxe.json
+f828eec5b38ce5e93f942dd11062c2d9028a96e4 data\minecraft\tags\block\walls.json
 5dbfeeaad336609c993f3050eb63d1112358b6f1 data\ancient-rules\tags\block\led_panels.json
 0262e8b581e2b2e7562fad0fd7cada081a334357 data\minecraft\tags\block\fences.json
 d98b9ab0a59db9d2fc06f3f376e292561bbb8838 data\minecraft\tags\block\logs.json

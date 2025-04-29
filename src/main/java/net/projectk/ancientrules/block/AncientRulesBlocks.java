@@ -1,5 +1,6 @@
 package net.projectk.ancientrules.block;
 
+import com.mojang.serialization.MapCodec;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -35,7 +36,7 @@ public class AncientRulesBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.OAK_SLAB)));
     public static final Block CHROMEWOOD_STAIRS = registerBlock("chromewood_stairs",
             new StairsBlock(AncientRulesBlocks.CHROMEWOOD_PLANKS.getDefaultState()
-                    ,AbstractBlock.Settings.copy(Blocks.OAK_SLAB)));
+                    ,AbstractBlock.Settings.copy(Blocks.OAK_STAIRS)));
 
     public static final Block CHROMEWOOD_BUTTON = registerBlock("chromewood_button",
             new ButtonBlock(BlockSetType.COPPER, 30, AbstractBlock.Settings.copy(Blocks.OAK_BUTTON)));
@@ -84,6 +85,34 @@ public class AncientRulesBlocks {
             new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.MAGENTA).luminance(state -> 10)));
     public static final Block BROWN_LED_PANEL = registerBlock("brown_led_panel",
             new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.BROWN).luminance(state -> 5)));
+
+    public static final Block BLACK_SAND = registerBlock("black_sand",
+            new FallingBlock(AbstractBlock.Settings.copy(Blocks.SAND)) {
+                @Override
+                protected MapCodec<? extends FallingBlock> getCodec() {
+                    return null;
+                }
+    });
+    public static final Block BLACK_SANDSTONE = registerBlock("black_sandstone",
+            new Block(AbstractBlock.Settings.copy(Blocks.SANDSTONE)));
+    public static final Block BLACK_SANDSTONE_STAIRS = registerBlock("black_sandstone_stairs",
+            new StairsBlock(AncientRulesBlocks.BLACK_SANDSTONE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.SANDSTONE_STAIRS)));
+    public static final Block BLACK_SANDSTONE_SLAB = registerBlock("black_sandstone_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.SANDSTONE_SLAB)));
+    public static final Block BLACK_SANDSTONE_WALL = registerBlock("black_sandstone_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.SANDSTONE_WALL)));
+    public static final Block BLACK_SMOOTH_SANDSTONE = registerBlock("black_smooth_sandstone",
+            new Block(AbstractBlock.Settings.copy(Blocks.SANDSTONE)));
+    public static final Block BLACK_SMOOTH_SANDSTONE_STAIRS = registerBlock("black_smooth_sandstone_stairs",
+            new StairsBlock(AncientRulesBlocks.BLACK_SMOOTH_SANDSTONE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.SMOOTH_SANDSTONE_STAIRS)));
+    public static final Block BLACK_SMOOTH_SANDSTONE_SLAB = registerBlock("black_smooth_sandstone_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_SANDSTONE_SLAB)));
+    public static final Block BLACK_CUT_SANDSTONE = registerBlock("black_cut_sandstone",
+            new Block(AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)));
+    public static final Block BLACK_CUT_SANDSTONE_SLAB = registerBlock("black_cut_sandstone_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE_SLAB)));
+    public static final Block BLACK_CHISELED_SANDSTONE = registerBlock("black_chiseled_sandstone",
+            new Block(AbstractBlock.Settings.copy(Blocks.CHISELED_SANDSTONE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

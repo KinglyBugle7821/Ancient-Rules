@@ -38,7 +38,6 @@ public class AncientRulesRecipeProvider extends FabricRecipeProvider {
             Map.entry(Blocks.MAGENTA_STAINED_GLASS_PANE, AncientRulesBlocks.MAGENTA_LED_PANEL),
             Map.entry(Blocks.BROWN_STAINED_GLASS_PANE, AncientRulesBlocks.BROWN_LED_PANEL)
     );
-
     @Override
     public void generate(RecipeExporter recipeExporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.CHROMEWOOD_WOOD, 3)
