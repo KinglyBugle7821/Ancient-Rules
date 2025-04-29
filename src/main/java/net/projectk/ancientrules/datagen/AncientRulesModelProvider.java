@@ -37,6 +37,6 @@ public class AncientRulesModelProvider extends FabricModelProvider {
     }
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-
+        itemModelGenerator.register(AncientRulesBlocks.CHROMEWOOD_SAPLING.asItem(), Models.GENERATED);
     }
 }

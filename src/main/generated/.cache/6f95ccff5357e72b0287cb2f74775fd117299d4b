@@ -1,9 +1,9 @@
-// 1.21	2025-04-29T18:20:18.6458196	Ancient Rules/Recipes
+// 1.21	2025-04-29T20:23:06.360343	Ancient Rules/Recipes
 48c1fe3d415675724dad56e2a33c96c6b6524d9e data\ancient-rules\advancement\recipes\building_blocks\cyan_led_panel.json
 f0116e08d968d178858e13b120734eaeba7e7013 data\ancient-rules\recipe\brown_led_panel.json
 b7b3e3d4dbc2cd12ae972cff30c052d180be7c7d data\ancient-rules\recipe\yellow_led_panel.json
-e143ca002f04ae54356de7f536541597e7003501 data\ancient-rules\advancement\recipes\building_blocks\light_gray_led_panel.json
 6f379c5489e15da35f19c5e033b3657357a28a16 data\ancient-rules\advancement\recipes\building_blocks\chromewood_wood.json
+e143ca002f04ae54356de7f536541597e7003501 data\ancient-rules\advancement\recipes\building_blocks\light_gray_led_panel.json
 0c184944ed3269c6d42d30b489a284ccb78678cc data\ancient-rules\advancement\recipes\building_blocks\green_led_panel.json
 ad533c84e84d073567ceed7c0ea6ef7f6f3e75eb data\ancient-rules\advancement\recipes\building_blocks\chromewood_button.json
 102022ffa51dda7b2b146f93c8f2ab9b8a587531 data\ancient-rules\advancement\recipes\building_blocks\chromewood_planks.json
@@ -30,8 +30,8 @@ a3258708bb3a9e0076561e2ffcff46e457a36f17 data\ancient-rules\recipe\light_gray_le
 3aa813cf1123ee47ad78e9b2ede4704c25562357 data\ancient-rules\advancement\recipes\building_blocks\magenta_led_panel.json
 43edfe0935ff21be68dafcc2a1c8d1a2b2c4ff43 data\ancient-rules\recipe\purple_led_panel.json
 fa6ce30a661fe40d3abb7c2437129e806c27a239 data\ancient-rules\recipe\chromewood_wood.json
-520712ceca05a995c6991d28d71ffcbdcdb24131 data\ancient-rules\advancement\recipes\building_blocks\gray_led_panel.json
 3895742b438b1cf5afe58f625e6da53d25b8b1a4 data\ancient-rules\advancement\recipes\building_blocks\light_blue_led_panel.json
+520712ceca05a995c6991d28d71ffcbdcdb24131 data\ancient-rules\advancement\recipes\building_blocks\gray_led_panel.json
 7d8d972535eb78067856722adde49e957e0211fa data\ancient-rules\recipe\light_blue_led_panel.json
 0437ec3ada005e6a10d6ee1ef3824d0bebd21464 data\ancient-rules\recipe\chromewood_planks.json
 773d2311a2eb4c8b19adae9c0b88960e95ea2534 data\ancient-rules\advancement\recipes\building_blocks\blue_led_panel.json

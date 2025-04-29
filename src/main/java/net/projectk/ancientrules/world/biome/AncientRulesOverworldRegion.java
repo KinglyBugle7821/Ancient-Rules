@@ -32,11 +32,11 @@ public class AncientRulesOverworldRegion extends Region {
 
         new ParameterUtils.ParameterPointListBuilder()
                 .temperature(ParameterUtils.Temperature.COOL)
-                .humidity(ParameterUtils.Humidity.DRY)
+                .humidity(ParameterUtils.Humidity.ARID)
                 .continentalness(ParameterUtils.Continentalness.FAR_INLAND)
-                .erosion(ParameterUtils.Erosion.EROSION_3)
+                .erosion(ParameterUtils.Erosion.EROSION_1)
                 .depth(ParameterUtils.Depth.SURFACE)
-                .weirdness(ParameterUtils.Weirdness.LOW_SLICE_NORMAL_DESCENDING)
+                .weirdness(ParameterUtils.Weirdness.MID_SLICE_NORMAL_DESCENDING)
                 .build().forEach(point -> builder.add(point, AncientRulesBiomes.EVERNIGHT_BIOME));
 
         builder.build().forEach(mapper::accept);
