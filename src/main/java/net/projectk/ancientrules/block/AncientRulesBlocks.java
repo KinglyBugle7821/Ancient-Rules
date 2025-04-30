@@ -113,6 +113,9 @@ public class AncientRulesBlocks {
     public static final Block EVERNIGHT_CHISELED_SANDSTONE = registerBlock("evernight_chiseled_sandstone",
             new Block(AbstractBlock.Settings.copy(Blocks.CHISELED_SANDSTONE)));
 
+    public static final Block EVERNIGHT_CACTUS = registerBlock("evernight_cactus",
+            new CactusBlock(AbstractBlock.Settings.copy(Blocks.CACTUS)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(AncientRules.MOD_ID, name), block);

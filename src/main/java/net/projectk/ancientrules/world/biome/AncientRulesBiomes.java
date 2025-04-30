@@ -30,8 +30,6 @@ public class AncientRulesBiomes {
         DefaultBiomeFeatures.addAmethystGeodes(builder);
         DefaultBiomeFeatures.addDungeons(builder);
         DefaultBiomeFeatures.addMineables(builder);
-        DefaultBiomeFeatures.addSprings(builder);
-        DefaultBiomeFeatures.addFrozenTopLayer(builder);
     }
 
     public static Biome evernight_biome(Registerable<Biome> context) {
@@ -47,7 +45,6 @@ public class AncientRulesBiomes {
         DefaultBiomeFeatures.addDefaultOres(biomeBuilder);
 
         DefaultBiomeFeatures.addLargeFerns(biomeBuilder);
-
         DefaultBiomeFeatures.addDefaultMushrooms(biomeBuilder);
         DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
 
@@ -58,12 +55,12 @@ public class AncientRulesBiomes {
                 .generationSettings(biomeBuilder.build())
                 .spawnSettings(spawnBuilder.build())
                 .effects((new BiomeEffects.Builder())
-                        .waterColor(0x1c1c3c)         // Deep dark blue water
-                        .waterFogColor(0x131333)      // Darker, but not black water fog
-                        .skyColor(0x0D0B38)           // Dark purple-blue sky (not black)
-                        .grassColor(0x154b32)         // Dark grey-green grass
-                        .foliageColor(0x22510f)       // Darker foliage
-                        .fogColor(0x262655)           // Moody, dim fog
+                        .waterColor(0x1c1c3c)
+                        .waterFogColor(0x131333)
+                        .skyColor(0x0D0B38)
+                        .grassColor(0x154b32)
+                        .foliageColor(0x22510f)
+                        .fogColor(0x262655)
                         .build())
                 .build();
     }

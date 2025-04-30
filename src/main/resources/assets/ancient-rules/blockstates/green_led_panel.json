@@ -16,12 +16,12 @@
 			"y": 270
 		},
 		"facing=up": {
-			"model": "ancient-rules:block/green_led_panel",
-			"x": 270
+			"model": "ancient-rules:block/green_led_panel_floor",
+			"x": 90
 		},
 		"facing=down": {
-			"model": "ancient-rules:block/green_led_panel",
-			"x": 90
+			"model": "ancient-rules:block/green_led_panel_floor",
+			"x": 270
 		}
 	}
 }

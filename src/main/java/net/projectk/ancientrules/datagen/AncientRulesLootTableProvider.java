@@ -60,5 +60,7 @@ public class AncientRulesLootTableProvider extends FabricBlockLootTableProvider 
         addDrop(AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE);
         addDrop(AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE_SLAB);
         addDrop(AncientRulesBlocks.EVERNIGHT_CHISELED_SANDSTONE);
+
+        addDrop(AncientRulesBlocks.EVERNIGHT_CACTUS);
     }
 }

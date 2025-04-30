@@ -7,12 +7,14 @@ import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.projectk.ancientrules.block.AncientRulesBlocks;
 
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
@@ -20,6 +22,8 @@ public class AncientRulesRecipeProvider extends FabricRecipeProvider {
     public AncientRulesRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
     }
+    private static final List<ItemConvertible> EVERNIGHT_SANDSTONE = List.of(AncientRulesBlocks.EVERNIGHT_SANDSTONE);
+
     private static final Map<Block, Block> LED_PANELS = Map.ofEntries(
             Map.entry(Blocks.RED_STAINED_GLASS_PANE, AncientRulesBlocks.RED_LED_PANEL),
             Map.entry(Blocks.BLUE_STAINED_GLASS_PANE, AncientRulesBlocks.BLUE_LED_PANEL),
@@ -78,5 +82,43 @@ public class AncientRulesRecipeProvider extends FabricRecipeProvider {
                     .criterion(hasItem(paneBlock), conditionsFromItem(paneBlock))
                     .offerTo(recipeExporter);
         });
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_SANDSTONE)
+                .pattern("##")
+                .pattern("##")
+                .input('#', AncientRulesBlocks.EVERNIGHT_SAND)
+                .criterion(hasItem(AncientRulesBlocks.EVERNIGHT_SAND), conditionsFromItem(AncientRulesBlocks.EVERNIGHT_SAND))
+                .offerTo(recipeExporter);
+        createStairsRecipe(AncientRulesBlocks.EVERNIGHT_SANDSTONE_STAIRS, Ingredient.ofItems(AncientRulesBlocks.EVERNIGHT_SANDSTONE));
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS ,AncientRulesBlocks.EVERNIGHT_SANDSTONE_SLAB, Ingredient.ofItems(AncientRulesBlocks.EVERNIGHT_SANDSTONE));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_SANDSTONE_WALL)
+                .pattern("###")
+                .pattern("###")
+                .input('#', AncientRulesBlocks.EVERNIGHT_SANDSTONE)
+                .criterion(hasItem(AncientRulesBlocks.EVERNIGHT_SANDSTONE), conditionsFromItem(AncientRulesBlocks.EVERNIGHT_SANDSTONE))
+                .offerTo(recipeExporter);
+        offerSmelting(recipeExporter, EVERNIGHT_SANDSTONE, RecipeCategory.MISC, AncientRulesBlocks.EVERNIGHT_SANDSTONE,
+                0.7f, 200, "sandstone");
+        offerBlasting(recipeExporter, EVERNIGHT_SANDSTONE, RecipeCategory.MISC, AncientRulesBlocks.EVERNIGHT_SANDSTONE,
+                0.7f, 100, "sandstone");
+        createStairsRecipe(AncientRulesBlocks.EVERNIGHT_SMOOTH_SANDSTONE_STAIRS, Ingredient.ofItems(AncientRulesBlocks.EVERNIGHT_SMOOTH_SANDSTONE));
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_SMOOTH_SANDSTONE_SLAB, Ingredient.ofItems(AncientRulesBlocks.EVERNIGHT_SMOOTH_SANDSTONE));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE, 4)
+                .pattern("##")
+                .pattern("##")
+                .input('#', AncientRulesBlocks.EVERNIGHT_SANDSTONE)
+                .criterion(hasItem(AncientRulesBlocks.EVERNIGHT_SANDSTONE), conditionsFromItem(AncientRulesBlocks.EVERNIGHT_SAND))
+                .offerTo(recipeExporter);
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE_SLAB, Ingredient.ofItems(AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE));
+        createChiseledBlockRecipe(RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_CHISELED_SANDSTONE, Ingredient.ofItems(AncientRulesBlocks.EVERNIGHT_SANDSTONE_SLAB));
+
+        offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_SANDSTONE_STAIRS, AncientRulesBlocks.EVERNIGHT_SANDSTONE);
+        offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_SANDSTONE_SLAB, AncientRulesBlocks.EVERNIGHT_SANDSTONE, 2);
+        offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_SANDSTONE_WALL, AncientRulesBlocks.EVERNIGHT_SANDSTONE);
+        offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_SMOOTH_SANDSTONE_STAIRS, AncientRulesBlocks.EVERNIGHT_SMOOTH_SANDSTONE);
+        offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_SMOOTH_SANDSTONE_SLAB, AncientRulesBlocks.EVERNIGHT_SMOOTH_SANDSTONE, 2);
+        offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE, AncientRulesBlocks.EVERNIGHT_SANDSTONE);
+        offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE_SLAB, AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE, 2);
+        offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_CHISELED_SANDSTONE, AncientRulesBlocks.EVERNIGHT_SANDSTONE);
     }
 }

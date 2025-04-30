@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ancient-rules:evernight_sandstone"
+  },
+  "result": {
+    "count": 1,
+    "id": "ancient-rules:evernight_sandstone_wall"
+  }
+}
