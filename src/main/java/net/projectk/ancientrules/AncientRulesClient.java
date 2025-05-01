@@ -11,6 +11,7 @@ public class AncientRulesClient implements ClientModInitializer {
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(AncientRulesBlocks.CHROMEWOOD_SAPLING, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(AncientRulesBlocks.CHROMEWOOD_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(AncientRulesBlocks.EVERNIGHT_CACTUS, RenderLayer.getCutout());
     }
 
 }

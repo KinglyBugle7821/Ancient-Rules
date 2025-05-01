@@ -22,5 +22,7 @@ public class AncientRulesItemTagProvider extends FabricTagProvider.ItemTagProvid
                 .add(AncientRulesBlocks.STRIPPED_CHROMEWOOD_WOOD.asItem());
         getOrCreateTagBuilder(ItemTags.PLANKS)
                 .add(AncientRulesBlocks.CHROMEWOOD_PLANKS.asItem());
+        getOrCreateTagBuilder(ItemTags.SAND)
+                .add(AncientRulesBlocks.EVERNIGHT_SAND.asItem());
     }
 }

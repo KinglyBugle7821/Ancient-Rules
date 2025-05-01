@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 import net.projectk.ancientrules.AncientRules;
+import net.projectk.ancientrules.block.custom.EvernightCactusBlock;
 import net.projectk.ancientrules.block.custom.LEDPanelBlock;
 import net.projectk.ancientrules.world.tree.AncientRulesSaplingGenerators;
 
@@ -114,7 +115,7 @@ public class AncientRulesBlocks {
             new Block(AbstractBlock.Settings.copy(Blocks.CHISELED_SANDSTONE)));
 
     public static final Block EVERNIGHT_CACTUS = registerBlock("evernight_cactus",
-            new CactusBlock(AbstractBlock.Settings.copy(Blocks.CACTUS)));
+            new EvernightCactusBlock(AbstractBlock.Settings.copy(Blocks.CACTUS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

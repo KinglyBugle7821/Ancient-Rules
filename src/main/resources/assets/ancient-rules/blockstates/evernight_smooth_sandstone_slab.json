@@ -4,7 +4,7 @@
       "model": "ancient-rules:block/evernight_smooth_sandstone_slab"
     },
     "type=double": {
-      "model": "ancient-rules:block/evernight_smooth_sandstone"
+      "model": "ancient-rules:block/evernight_smooth_sandstone_double"
     },
     "type=top": {
       "model": "ancient-rules:block/evernight_smooth_sandstone_slab_top"

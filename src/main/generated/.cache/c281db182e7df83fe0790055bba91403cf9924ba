@@ -1,4 +1,4 @@
-// 1.21	2025-04-30T17:18:55.7830897	Ancient Rules/Block Loot Tables
+// 1.21	2025-05-01T16:11:36.8981944	Ancient Rules/Block Loot Tables
 89594308f7e824b1466bec45c6c9d9d0fb98c509 data\ancient-rules\loot_table\blocks\chromewood_pressure_plate.json
 083a087421000cb0cb4588f6aa1ab09749b04c4c data\ancient-rules\loot_table\blocks\evernight_sandstone_slab.json
 df03e0ad454a85ed3858f76a485630490c37bd41 data\ancient-rules\loot_table\blocks\evernight_cut_sandstone.json
@@ -10,8 +10,8 @@ da9345e63aa747e01860171ce81bea367f7c7be2 data\ancient-rules\loot_table\blocks\li
 f3be5f280ac1a24933ce22ea863e87d990f95f0c data\ancient-rules\loot_table\blocks\evernight_sandstone_wall.json
 5d62ac02ee62c0e2fc9b759d445cffbb7896ad45 data\ancient-rules\loot_table\blocks\stripped_chromewood_wood.json
 c5b3a4b2b2d37768dd38c5b22bcef920c03e1a14 data\ancient-rules\loot_table\blocks\chromewood_door.json
-2a0a0696ed20810bde8799ab832b419868cc05a4 data\ancient-rules\loot_table\blocks\purple_led_panel.json
 2d8f9cc0404fc64887177bd6b058ffa1a8e336b4 data\ancient-rules\loot_table\blocks\chromewood_stairs.json
+2a0a0696ed20810bde8799ab832b419868cc05a4 data\ancient-rules\loot_table\blocks\purple_led_panel.json
 238f26bc2275bd95654b6269575dc2784038b253 data\ancient-rules\loot_table\blocks\cyan_led_panel.json
 8ac498a1b32b1596d965436b9a5f3dc2d00e07e0 data\ancient-rules\loot_table\blocks\evernight_smooth_sandstone.json
 1ca578046cf83e2150584dd2406700ffc02e9d3e data\ancient-rules\loot_table\blocks\evernight_sand.json

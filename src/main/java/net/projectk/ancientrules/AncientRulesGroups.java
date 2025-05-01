@@ -63,6 +63,8 @@ public class AncientRulesGroups {
                         entries.add(AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE);
                         entries.add(AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE_SLAB);
                         entries.add(AncientRulesBlocks.EVERNIGHT_CHISELED_SANDSTONE);
+
+                        entries.add(AncientRulesBlocks.EVERNIGHT_CACTUS);
                     }).build());
 
     public static void registerItemGroup() {
