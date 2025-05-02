@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "ancient-rules:magnetized_iron_ingot"
+    },
+    {
+      "item": "ancient-rules:magnetized_iron_ingot"
+    },
+    {
+      "item": "ancient-rules:magnetized_iron_ingot"
+    },
+    {
+      "item": "ancient-rules:magnetized_iron_ingot"
+    },
+    {
+      "item": "ancient-rules:magnetized_iron_ingot"
+    },
+    {
+      "item": "ancient-rules:magnetized_iron_ingot"
+    },
+    {
+      "item": "ancient-rules:magnetized_iron_ingot"
+    },
+    {
+      "item": "ancient-rules:magnetized_iron_ingot"
+    },
+    {
+      "item": "ancient-rules:magnetized_iron_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ancient-rules:magnetized_iron_block"
+  }
+}

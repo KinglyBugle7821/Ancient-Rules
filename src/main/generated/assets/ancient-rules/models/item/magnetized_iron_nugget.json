@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ancient-rules:item/magnetized_iron_nugget"
+  }
+}

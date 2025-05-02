@@ -6,11 +6,13 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 import net.projectk.ancientrules.AncientRules;
 import net.projectk.ancientrules.block.custom.EvernightCactusBlock;
 import net.projectk.ancientrules.block.custom.LEDPanelBlock;
+import net.projectk.ancientrules.block.custom.MagnetizedIronBlock;
 import net.projectk.ancientrules.world.tree.AncientRulesSaplingGenerators;
 
 public class AncientRulesBlocks {
@@ -54,37 +56,37 @@ public class AncientRulesBlocks {
             new TrapdoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.OAK_TRAPDOOR)));
 
     public static final Block RED_LED_PANEL = registerBlock("red_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.RED).luminance(state -> 9)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.RED).luminance(state -> 9).sounds(BlockSoundGroup.GLASS)));
     public static final Block BLUE_LED_PANEL = registerBlock("blue_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.BLUE).luminance(state -> 7)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.BLUE).luminance(state -> 7).sounds(BlockSoundGroup.GLASS)));
     public static final Block YELLOW_LED_PANEL = registerBlock("yellow_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.YELLOW).luminance(state -> 14)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.YELLOW).luminance(state -> 14).sounds(BlockSoundGroup.GLASS)));
     public static final Block GREEN_LED_PANEL = registerBlock("green_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.GREEN).luminance(state -> 11)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.GREEN).luminance(state -> 11).sounds(BlockSoundGroup.GLASS)));
     public static final Block BLACK_LED_PANEL = registerBlock("black_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.BLACK).luminance(state -> 4)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.BLACK).luminance(state -> 4).sounds(BlockSoundGroup.GLASS)));
     public static final Block WHITE_LED_PANEL = registerBlock("white_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.WHITE).luminance(state -> 15)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.WHITE).luminance(state -> 15).sounds(BlockSoundGroup.GLASS)));
     public static final Block ORANGE_LED_PANEL = registerBlock("orange_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.ORANGE).luminance(state -> 13)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.ORANGE).luminance(state -> 13).sounds(BlockSoundGroup.GLASS)));
     public static final Block PURPLE_LED_PANEL = registerBlock("purple_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.PURPLE).luminance(state -> 8)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.PURPLE).luminance(state -> 8).sounds(BlockSoundGroup.GLASS)));
     public static final Block LIGHT_BLUE_LED_PANEL = registerBlock("light_blue_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.LIGHT_BLUE).luminance(state -> 10)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.LIGHT_BLUE).luminance(state -> 10).sounds(BlockSoundGroup.GLASS)));
     public static final Block LIME_LED_PANEL = registerBlock("lime_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.LIME).luminance(state -> 13)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.LIME).luminance(state -> 13).sounds(BlockSoundGroup.GLASS)));
     public static final Block PINK_LED_PANEL = registerBlock("pink_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.PINK).luminance(state -> 12)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.PINK).luminance(state -> 12).sounds(BlockSoundGroup.GLASS)));
     public static final Block GRAY_LED_PANEL = registerBlock("gray_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.GRAY).luminance(state -> 6)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.GRAY).luminance(state -> 6).sounds(BlockSoundGroup.GLASS)));
     public static final Block LIGHT_GRAY_LED_PANEL = registerBlock("light_gray_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.LIGHT_GRAY).luminance(state -> 9)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.LIGHT_GRAY).luminance(state -> 9).sounds(BlockSoundGroup.GLASS)));
     public static final Block CYAN_LED_PANEL = registerBlock("cyan_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.CYAN).luminance(state -> 9)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.CYAN).luminance(state -> 9).sounds(BlockSoundGroup.GLASS)));
     public static final Block MAGENTA_LED_PANEL = registerBlock("magenta_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.MAGENTA).luminance(state -> 10)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.MAGENTA).luminance(state -> 10).sounds(BlockSoundGroup.GLASS)));
     public static final Block BROWN_LED_PANEL = registerBlock("brown_led_panel",
-            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.BROWN).luminance(state -> 5)));
+            new LEDPanelBlock(AbstractBlock.Settings.create().nonOpaque().mapColor(DyeColor.BROWN).luminance(state -> 5).sounds(BlockSoundGroup.GLASS)));
 
     public static final Block EVERNIGHT_SAND = registerBlock("evernight_sand",
             new FallingBlock(AbstractBlock.Settings.copy(Blocks.SAND)) {
@@ -117,6 +119,9 @@ public class AncientRulesBlocks {
     public static final Block EVERNIGHT_CACTUS = registerBlock("evernight_cactus",
             new EvernightCactusBlock(AbstractBlock.Settings.copy(Blocks.CACTUS)));
 
+    public static final Block MAGNETIZED_IRON_BLOCK = registerBlock("magnetized_iron_block",
+            new MagnetizedIronBlock(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(AncientRules.MOD_ID, name), block);
@@ -127,7 +132,7 @@ public class AncientRulesBlocks {
                 new BlockItem(block, new Item.Settings()));
     }
 
-    public static void registerModBlocks() {
+    public static void registerAncientRulesBlocks() {
         AncientRules.LOGGER.info("Registering Mod Blocks for " + AncientRules.MOD_ID);
     }
 }

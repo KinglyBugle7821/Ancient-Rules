@@ -2,7 +2,7 @@ package net.projectk.ancientrules.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import net.projectk.ancientrules.block.AncientRulesBlocks;
@@ -68,5 +68,15 @@ public class AncientRulesBlocktagProvider extends FabricTagProvider.BlockTagProv
                 .add(AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE_SLAB)
                 .add(AncientRulesBlocks.EVERNIGHT_CHISELED_SANDSTONE);
         getOrCreateTagBuilder(BlockTags.SAND).add(AncientRulesBlocks.EVERNIGHT_SAND);
+        getOrCreateTagBuilder(AncientRulesTags.Blocks.MAGNETIZED).add(AncientRulesBlocks.MAGNETIZED_IRON_BLOCK);
+        getOrCreateTagBuilder(AncientRulesTags.Blocks.FERROMAGNETIC)
+                .add(AncientRulesBlocks.MAGNETIZED_IRON_BLOCK)
+                .add(Blocks.IRON_BLOCK)
+                .add(Blocks.IRON_BARS)
+                .add(Blocks.IRON_DOOR)
+                .add(Blocks.IRON_TRAPDOOR)
+                .add(Blocks.IRON_ORE)
+                .add(Blocks.DEEPSLATE_IRON_ORE)
+                .add(Blocks.RAW_IRON_BLOCK);
     }
 }

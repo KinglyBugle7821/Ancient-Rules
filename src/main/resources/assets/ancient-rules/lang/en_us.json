@@ -48,5 +48,9 @@
 
   "block.ancient-rules.evernight_cactus": "Evernight Cactus",
 
+  "item.ancient-rules.magnetized_iron_ingot": "Magnetized Iron Ingot",
+  "item.ancient-rules.magnetized_iron_nugget": "Magnetized Iron Nugget",
+  "block.ancient-rules.magnetized_iron_block": "Magnetized Iron Block",
+
   "itemtab.ancient-rules.mod_tab": "Ancient Rules"
 }

@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.projectk.ancientrules.block.AncientRulesBlocks;
+import net.projectk.ancientrules.item.AncientRulesItems;
 
 public class AncientRulesGroups {
     public static final ItemGroup ANCIENT_RULES_MOD_TAB = Registry.register(Registries.ITEM_GROUP,
@@ -65,6 +66,10 @@ public class AncientRulesGroups {
                         entries.add(AncientRulesBlocks.EVERNIGHT_CHISELED_SANDSTONE);
 
                         entries.add(AncientRulesBlocks.EVERNIGHT_CACTUS);
+
+                        entries.add(AncientRulesItems.MAGNETIZED_IRON_INGOT);
+                        entries.add(AncientRulesItems.MAGNETIZED_IRON_NUGGET);
+                        entries.add(AncientRulesBlocks.MAGNETIZED_IRON_BLOCK);
                     }).build());
 
     public static void registerItemGroup() {

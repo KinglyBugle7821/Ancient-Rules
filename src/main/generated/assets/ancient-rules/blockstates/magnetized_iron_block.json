@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ancient-rules:block/magnetized_iron_block"
+    }
+  }
+}

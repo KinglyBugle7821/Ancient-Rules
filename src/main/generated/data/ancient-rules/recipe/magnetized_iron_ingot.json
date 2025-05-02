@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "ancient-rules:magnetized_iron_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "ancient-rules:magnetized_iron_ingot"
+  }
+}

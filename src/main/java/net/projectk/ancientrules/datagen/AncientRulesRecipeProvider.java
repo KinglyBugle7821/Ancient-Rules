@@ -13,6 +13,7 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.projectk.ancientrules.block.AncientRulesBlocks;
+import net.projectk.ancientrules.item.AncientRulesItems;
 
 import java.util.List;
 import java.util.Map;
@@ -112,6 +113,18 @@ public class AncientRulesRecipeProvider extends FabricRecipeProvider {
         createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE_SLAB, Ingredient.ofItems(AncientRulesBlocks.EVERNIGHT_CUT_SANDSTONE));
         createChiseledBlockRecipe(RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_CHISELED_SANDSTONE, Ingredient.ofItems(AncientRulesBlocks.EVERNIGHT_SANDSTONE_SLAB));
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.MAGNETIZED_IRON_BLOCK)
+                .input(AncientRulesItems.MAGNETIZED_IRON_INGOT, 9)
+                .criterion(hasItem(AncientRulesItems.MAGNETIZED_IRON_INGOT), conditionsFromItem(AncientRulesItems.MAGNETIZED_IRON_INGOT))
+                .offerTo(recipeExporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, AncientRulesItems.MAGNETIZED_IRON_INGOT, 9)
+                .input(AncientRulesBlocks.MAGNETIZED_IRON_BLOCK)
+                .criterion(hasItem(AncientRulesBlocks.MAGNETIZED_IRON_BLOCK), conditionsFromItem(AncientRulesBlocks.MAGNETIZED_IRON_BLOCK))
+                .offerTo(recipeExporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, AncientRulesItems.MAGNETIZED_IRON_NUGGET, 9)
+                .input(AncientRulesItems.MAGNETIZED_IRON_INGOT)
+                .criterion(hasItem(AncientRulesItems.MAGNETIZED_IRON_INGOT), conditionsFromItem(AncientRulesItems.MAGNETIZED_IRON_INGOT))
+                .offerTo(recipeExporter);
         offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_SANDSTONE_STAIRS, AncientRulesBlocks.EVERNIGHT_SANDSTONE);
         offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_SANDSTONE_SLAB, AncientRulesBlocks.EVERNIGHT_SANDSTONE, 2);
         offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, AncientRulesBlocks.EVERNIGHT_SANDSTONE_WALL, AncientRulesBlocks.EVERNIGHT_SANDSTONE);

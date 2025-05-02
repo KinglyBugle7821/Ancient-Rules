@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
 import net.projectk.ancientrules.block.AncientRulesBlocks;
+import net.projectk.ancientrules.item.AncientRulesItems;
 
 
 public class AncientRulesModelProvider extends FabricModelProvider {
@@ -34,9 +35,14 @@ public class AncientRulesModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(AncientRulesBlocks.EVERNIGHT_SMOOTH_SANDSTONE);
         blockStateModelGenerator.registerSingleton(AncientRulesBlocks.EVERNIGHT_SANDSTONE, TexturedModel.CUBE_BOTTOM_TOP);
         blockStateModelGenerator.registerSingleton(AncientRulesBlocks.EVERNIGHT_CHISELED_SANDSTONE, TexturedModel.CUBE_BOTTOM_TOP);
+
+        blockStateModelGenerator.registerSimpleCubeAll(AncientRulesBlocks.MAGNETIZED_IRON_BLOCK);
     }
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(AncientRulesBlocks.CHROMEWOOD_SAPLING.asItem(), Models.GENERATED);
+
+        itemModelGenerator.register(AncientRulesItems.MAGNETIZED_IRON_INGOT, Models.GENERATED);
+        itemModelGenerator.register(AncientRulesItems.MAGNETIZED_IRON_NUGGET, Models.GENERATED);
     }
 }

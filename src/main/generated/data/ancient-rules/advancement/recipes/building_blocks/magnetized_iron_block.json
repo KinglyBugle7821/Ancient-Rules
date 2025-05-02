@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magnetized_iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ancient-rules:magnetized_iron_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ancient-rules:magnetized_iron_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magnetized_iron_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ancient-rules:magnetized_iron_block"
+    ]
+  }
+}

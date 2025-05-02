@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.projectk.ancientrules.block.AncientRulesBlocks;
+import net.projectk.ancientrules.item.AncientRulesItems;
 import net.projectk.ancientrules.world.gen.AncientRulesWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,7 +18,8 @@ public class AncientRules implements ModInitializer {
 	public void onInitialize() {
 		AncientRulesGroups.registerItemGroup();
 
-		AncientRulesBlocks.registerModBlocks();
+		AncientRulesBlocks.registerAncientRulesBlocks();
+		AncientRulesItems.registerAncientRulesItems();
 
 		AncientRulesWorldGeneration.generateAncientRulesWorldGen();
 

@@ -1,15 +1,17 @@
-// 1.21	2025-05-01T16:11:36.9011929	Ancient Rules/Tags for minecraft:block
+// 1.21	2025-05-02T10:12:58.7385579	Ancient Rules/Tags for minecraft:block
 2c9b118266961677f0465aae4168b6adf8344ed1 data\minecraft\tags\block\wooden_buttons.json
+369836b6d10ed75e374c0a758db5af20a7dd8489 data\ancient-rules\tags\block\ferromagnetic.json
 99129e5a64fd11cfbb315027d101113926f94998 data\minecraft\tags\block\fence_gates.json
 4a25c73966d5e6b37da772a65f9d0482a81b44d7 data\minecraft\tags\block\trapdoors.json
+7242c6f733a180ac3c69302ddcbdeb4eebd07125 data\ancient-rules\tags\block\magnetized.json
 41bbed1ad1cf1cb437fab2d87cca686d3655bf3a data\minecraft\tags\block\mineable\pickaxe.json
 d1bcc4217a0266d640cb288e54c0431d675a72ec data\minecraft\tags\block\walls.json
 744c29622e087da141ba6f7964c38a7abff2e0d0 data\minecraft\tags\block\sand.json
 5dbfeeaad336609c993f3050eb63d1112358b6f1 data\ancient-rules\tags\block\led_panels.json
 0262e8b581e2b2e7562fad0fd7cada081a334357 data\minecraft\tags\block\fences.json
 d98b9ab0a59db9d2fc06f3f376e292561bbb8838 data\minecraft\tags\block\logs.json
-7a5a20a392c45600eff27798a0160b6507ef0cc2 data\minecraft\tags\block\doors.json
 3de8a195f0e4a097b0d61c895a9cf4be594588a1 data\minecraft\tags\block\wooden_stairs.json
+7a5a20a392c45600eff27798a0160b6507ef0cc2 data\minecraft\tags\block\doors.json
 0262e8b581e2b2e7562fad0fd7cada081a334357 data\minecraft\tags\block\wooden_fences.json
 d98b9ab0a59db9d2fc06f3f376e292561bbb8838 data\minecraft\tags\block\logs_that_burn.json
 a9b76f098885b292ad418f23c592f796d4055ea6 data\minecraft\tags\block\wooden_pressure_plates.json
